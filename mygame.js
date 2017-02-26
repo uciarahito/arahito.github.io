@@ -2,7 +2,6 @@
 
 var namaHari = new Array("Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu");
 var namaBulan = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember");
-var hargaRand = Math.floor(Math.random() * 70) + 30;
 var hargaJual = 0;
 var welcome = "Selamat datang di BOTOT!";
 var teks1 = "Saya adalah tukang botot pada sesi ini.\nMasukkan barang bekas anda dan kumpulkan poinnya.";
@@ -35,7 +34,7 @@ var i = 0;
 var jenisBotot = ["botol kaca","buku bekas","botol plastik","besi","seng"];
 var step = ["Step 1", "Step 2", "Step 3"]
 var pointRand = Math.floor(Math.random() * 70) + 30;
-var cek = new jenisBrg("besi");
+
 function jenisBrg(string) {
   this.string = string;
   this.type = function(randomValue){
@@ -53,6 +52,7 @@ function jenisBrg(string) {
   }
 }
 
+var cek = new jenisBrg("besi");
 pembuka();
 show_hari();
 cek.type(pointRand);
