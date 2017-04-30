@@ -43,7 +43,7 @@ body {
 #cover_home {
   height: 600px;
   position: relative;
-  top: -55px;
+  top: -25px;
   width: 100%;
   background-image: url("img/bg1.jpg");
   background-size: cover;
@@ -158,7 +158,7 @@ li {
 }
 
 h1 {
-  color: #3C4289;
+  color: #2E1994;
   font-family: 'Amatic SC', cursive;
   font-size: 72px;
   line-height: 60px;
